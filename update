@@ -10,4 +10,5 @@ if ! which debootstrap >/dev/null; then
 	exit 1
 fi
 
-exec germinate-update-metapackage --vcs -o newlists
+rm -f *-amd64 *-arm64
+exec germinate-update-metapackage --vcs
