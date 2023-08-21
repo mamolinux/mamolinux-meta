@@ -30,3 +30,17 @@ Description: Minimal core of MamoLinux
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
+Package: mamolinux-standard
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Breaks: ubuntu-standard
+Description: CLI-only components of MamoLinux
+ This metapackage depends on most of non-GUI packages from MamoLinux.
+ .
+ This set of packages provides a comfortable command-line Unix-like
+ environment.
+ .
+ It is used to ensure proper upgrades, so it is recommended that it not be
+ removed.
