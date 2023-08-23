@@ -44,3 +44,14 @@ Description: CLI-only components of MamoLinux
  .
  It is used to ensure proper upgrades, so it is recommended that it not be
  removed.
+
+Package: mamolinux-desktop-minimal
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: MamoLinux Cinnamon with minimal utilities
+ This metapackage installs the MamoLinux desktop with minimal utilities.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
