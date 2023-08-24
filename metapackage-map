@@ -3,3 +3,4 @@ standard mamolinux-standard
 desktop-minimal mamolinux-desktop-minimal
 desktop mamolinux-desktop
 desktop-full mamolinux-desktop-full
+live mamolinux-live
