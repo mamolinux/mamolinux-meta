@@ -55,3 +55,14 @@ Description: MamoLinux Cinnamon with minimal utilities
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
+
+Package: mamolinux-desktop
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: MamoLinux Cinnamon with basic utilities
+ This metapackage installs the MamoLinux Cinnamon desktop with basic utilities.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
