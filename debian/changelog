@@ -1,3 +1,31 @@
+mamolinux-meta (22.04.1) stable; urgency=medium
+
+  * Update mamolinux metapackage
+    - Create debian packaging for mamolinux-minimal
+    - Update metapackage-map
+    - Add package lists for minimal
+  * Provide metapackage mamolinux-standard
+    - Add package lists for mamolinux-standard
+    - update metapackage-map
+  * Add metapackage for minimal cinnamon desktop (#1)
+  * add metapackage for mamolinux cinnamon desktop (#2)
+    - Metapackage for mamolinux cinnamon desktop
+      with essential utilities for comfortable
+      desktop experience
+  * Add metapackage mamolinux full cinnamon desktop (#3)
+    - Metapackage for mamolinux cinnamon desktop
+      with essential utilities and apps for comfortable
+      desktop experience
+  * Update readme with repo informations (#4)
+  * Add metapackage mamolinux-live (#5)
+    - Adds metapackage mamolinux-live
+      needed for live cd
+  * Add lists for arm64 (#6)
+  * Add packages needed for a bootable system in ship (#7)
+  * Add metapackages mamolinux-ship and mamolinux-live
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 27 Aug 2023 20:27:45 +0530
+
 mamolinux-meta (22.04.0) jammy; urgency=medium
 
   * Initial release.
