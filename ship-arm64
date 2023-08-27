@@ -1,0 +1,6 @@
+grub-efi-arm64
+initramfs-tools
+linux-generic
+linux-image-generic
+mawk
+os-prober
