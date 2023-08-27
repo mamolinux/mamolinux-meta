@@ -1,0 +1,7 @@
+grub-pc
+initramfs-tools
+linux-generic
+linux-image-generic
+mawk
+os-prober
+thermald
