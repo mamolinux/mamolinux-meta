@@ -1,4 +1,210 @@
-mamolinux-meta (22.04.1) stable; urgency=medium
+mamolinux-meta (22.04.2) jammy; urgency=medium
+
+  * Update script and debootstrap version (#10)
+  * Refreshed dependencies (#9)
+  * Added calamares to live [amd64]
+  * Added casper to live [arm64]
+  * Added epiphany-browser to desktop [amd64], desktop-minimal [amd64]
+  * Added evolution to desktop, desktop-full
+  * Added flatpak to desktop-full [arm64]
+  * Added fonts-indic to desktop-full [arm64]
+  * Added gdebi to desktop-full
+  * Added gnome-characters to desktop-full
+  * Added gnome-chess to desktop, desktop-full
+  * Added gnome-keyring to desktop-full-recommends
+  * Added grub-pc to live [amd64]
+  * Added gufw to desktop, desktop-minimal
+  * Added laptop-detect to live
+  * Added leaptime-manager to desktop, desktop-full
+  * Added libpam-gnome-keyring to desktop-full-recommends
+  * Added libreoffice to desktop
+  * Added mamolinux-desktop to desktop-full [arm64]
+  * Added mamolinux-desktop-minimal to desktop [arm64]
+  * Added orca to desktop-full-recommends [amd64]
+  * Added seahorse to desktop-full
+  * Added shim-signed to live [amd64]
+  * Added simple-pwgen to desktop
+  * Added speech-dispatcher to desktop-full-recommends [amd64]
+  * Added sticky to desktop, desktop-full
+  * Added sucharu-theme-plank to desktop, desktop-minimal
+  * Added sucharu-theme-unity to desktop, desktop-minimal
+  * Added sucharu-theme-xfwm4 to desktop, desktop-minimal
+  * Added tasksel to live
+  * Added theme-manager to desktop, desktop-minimal
+  * Added timeshift to desktop, desktop-full
+  * Added vlc to desktop, desktop-minimal
+  * Added zfs-initramfs to live [amd64]
+  * Added zfsutils-linux to live [amd64]
+  * Added zsys to live [amd64]
+  * Removed acpi-support from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed alsa-base from desktop [amd64], desktop-full [amd64]
+  * Removed alsa-utils from desktop [amd64], desktop-full [amd64]
+  * Removed anacron from desktop [amd64], desktop-full [amd64]
+  * Removed avahi-daemon from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed baobab from desktop [arm64], desktop-recommends [amd64]
+  * Removed bc from desktop [amd64], desktop-full [amd64]
+  * Removed bluez from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed bluez-cups from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed ca-certificates from desktop [amd64], desktop-full [amd64]
+  * Removed cheese from desktop [arm64], desktop-recommends [amd64]
+  * Removed cups from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed cups-bsd from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed cups-client from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed cups-filters from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed flatpak from desktop-minimal-recommends, desktop-recommends
+    [amd64]
+  * Removed fonts-dejavu-core from desktop [amd64], desktop-full [amd64]
+  * Removed fonts-freefont-ttf from desktop [amd64], desktop-full
+    [amd64]
+  * Removed fonts-indic from desktop-minimal-recommends, desktop-
+    recommends [amd64]
+  * Removed fonts-kacst-one from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-khmeros-core from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-lao from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed fonts-liberation from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-lklug-sinhala from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-noto-cjk from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed fonts-sil-abyssinica from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-sil-padauk from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-thai-tlwg from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-tibetan-machine from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed fonts-ubuntu from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed foomatic-db-compressed-ppds from desktop [amd64], desktop-
+    full [amd64]
+  * Removed fwupd from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed fwupd-signed from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed gdebi from desktop-minimal-recommends
+  * Removed ghostscript-x from desktop [amd64], desktop-full [amd64]
+  * Removed gnome-characters from desktop-minimal-recommends, desktop-
+    recommends
+  * Removed gnome-keyring from desktop-minimal-recommends
+  * Removed gvfs-backends from desktop [amd64], desktop-minimal [amd64]
+  * Removed hplip from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed inputattach from desktop [amd64], desktop-full [amd64]
+  * Removed kerneloops from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed language-selector-common from desktop [amd64], desktop-full
+    [amd64]
+  * Removed laptop-detect from desktop-full-recommends [amd64], desktop-
+    minimal-recommends, desktop-recommends [amd64]
+  * Removed libnss-mdns from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed libpam-gnome-keyring from desktop-minimal-recommends
+  * Removed libreoffice-calc from desktop-full-recommends, desktop-
+    recommends
+  * Removed libreoffice-impress from desktop-full-recommends, desktop-
+    recommends
+  * Removed libreoffice-math from desktop-full-recommends, desktop-
+    recommends
+  * Removed libreoffice-writer from desktop-full-recommends, desktop-
+    recommends
+  * Removed libsasl2-modules from desktop [amd64], desktop-full [amd64]
+  * Removed libu2f-udev from desktop [amd64], desktop-full [amd64]
+  * Removed openprinting-ppds from desktop [amd64], desktop-full [amd64]
+  * Removed orca from desktop-minimal-recommends [amd64]
+  * Removed os-prober from live
+  * Removed packagekit from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed pcmciautils from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed policykit-desktop-privileges from desktop-full-recommends
+    [amd64], desktop-recommends [amd64]
+  * Removed printer-driver-brlaser from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-c2esp from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-foo2zjs from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-m2300w from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-min12xxw from desktop-full-recommends
+    [amd64], desktop-recommends [amd64]
+  * Removed printer-driver-pnm2ppa from desktop [amd64], desktop-full
+    [amd64]
+  * Removed printer-driver-ptouch from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-pxljr from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-sag-gdi from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed printer-driver-splix from desktop-full-recommends [amd64],
+    desktop-recommends [amd64]
+  * Removed rfkill from desktop [amd64], desktop-full [amd64]
+  * Removed rhythmbox from desktop [arm64], desktop-recommends [amd64]
+  * Removed seahorse from desktop-minimal-recommends
+  * Removed snapd from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed speech-dispatcher from desktop-minimal-recommends [amd64]
+  * Removed spice-vdagent from desktop [amd64], desktop-full [amd64]
+  * Removed ubuntu-drivers-common from desktop [amd64], desktop-full
+    [amd64]
+  * Removed wpasupplicant from desktop-full-recommends [amd64], desktop-
+    recommends [amd64]
+  * Removed xdg-user-dirs from desktop, desktop-minimal
+  * Removed xkb-data from desktop [amd64], desktop-full [amd64]
+  * Removed xorg from desktop [amd64], desktop-full [amd64]
+  * Moved baobab to desktop-full [amd64]
+  * Moved cheese to desktop-full [amd64]
+  * Moved eog to desktop [amd64], desktop-minimal [amd64]
+  * Moved evince to desktop [amd64], desktop-minimal [amd64]
+  * Moved file-roller to desktop [amd64], desktop-minimal [amd64]
+  * Moved firefox to desktop [amd64], desktop-minimal [amd64]
+  * Moved flatpak to desktop-full [amd64]
+  * Moved fonts-indic to desktop-full [amd64]
+  * Moved fonts-liberation to desktop-minimal
+  * Moved fonts-noto-cjk to desktop-minimal
+  * Moved fonts-ubuntu to desktop-minimal
+  * Moved fwupd to desktop-minimal
+  * Moved fwupd-signed to desktop-minimal
+  * Moved gdebi to desktop
+  * Moved gnome-calculator to desktop, desktop-minimal
+  * Moved gnome-disk-utility to desktop [amd64], desktop-minimal [amd64]
+  * Moved gvfs-fuse to desktop, desktop-minimal
+  * Moved mamolinux-themes-cursor to desktop [amd64], desktop-minimal
+    [amd64]
+  * Moved mamolinux-wallpapers to desktop [amd64], desktop-minimal
+    [amd64]
+  * Moved p7zip-full to desktop [amd64], desktop-full [amd64]
+  * Moved plymouth-theme-spinner to desktop [amd64], desktop-minimal
+    [amd64]
+  * Moved rhythmbox to desktop-full [amd64]
+  * Moved seahorse to desktop
+  * Moved shotwell to desktop [amd64], desktop-full [amd64]
+  * Moved simple-scan to desktop [amd64], desktop-full [amd64]
+  * Moved snapd to desktop-minimal
+  * Moved sucharu-theme-cinnamon-shell to desktop [amd64], desktop-
+    minimal [amd64]
+  * Moved sucharu-theme-gtk to desktop [amd64], desktop-minimal [amd64]
+  * Moved sucharu-theme-icon to desktop [amd64], desktop-minimal [amd64]
+  * Moved synapse to desktop [amd64], desktop-minimal [amd64]
+  * Moved uuid-runtime to standard
+  * Moved yaru-theme-sound to desktop [amd64], desktop-minimal [amd64]
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 27 Aug 2023 21:16:13 +0530
+
+mamolinux-meta (22.04.1) jammy; urgency=medium
 
   * Update mamolinux metapackage
     - Create debian packaging for mamolinux-minimal
