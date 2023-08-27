@@ -1,4 +1,5 @@
 btrfs-progs
+calamares
 calamares-settings-mamolinux
 casper
 cifs-utils
@@ -7,6 +8,7 @@ dmraid
 expect
 fonts-arphic-ukai
 fonts-arphic-uming
+grub-pc
 hunspell-de-at-frami
 hunspell-de-ch-frami
 hunspell-de-de-frami
@@ -38,10 +40,12 @@ language-pack-it
 language-pack-pt
 language-pack-ru
 language-pack-zh-hans
+laptop-detect
 lvm2
 mokutil
-os-prober
 reiserfsprogs
+shim-signed
+tasksel
 wamerican
 wbrazilian
 wbritish
@@ -53,3 +57,6 @@ wportuguese
 wspanish
 wswiss
 xfsprogs
+zfs-initramfs
+zfsutils-linux
+zsys

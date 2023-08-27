@@ -1,6 +1,7 @@
 btrfs-progs
 calamares
 calamares-settings-mamolinux
+casper
 cifs-utils
 discover
 dmraid
@@ -38,9 +39,10 @@ language-pack-it
 language-pack-pt
 language-pack-ru
 language-pack-zh-hans
+laptop-detect
 lvm2
-os-prober
 reiserfsprogs
+tasksel
 wamerican
 wbrazilian
 wbritish

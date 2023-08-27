@@ -37,6 +37,7 @@ ufw
 unzip
 update-manager-core
 usbutils
+uuid-runtime
 vim
 wget
 wireless-tools

@@ -10,13 +10,10 @@ fonts-liberation2
 fonts-noto-color-emoji
 fonts-opensymbol
 gamemode
-gdebi
 geoclue-2.0
 gnome-accessibility-themes
 gnome-bluetooth
-gnome-calculator
 gnome-calendar
-gnome-characters
 gnome-font-viewer
 gnome-keyring
 gnome-mahjongg
@@ -27,7 +24,6 @@ gnome-system-monitor
 gnome-terminal
 gnome-todo
 gpg-agent
-gvfs-fuse
 ibus-gtk
 ibus-gtk3
 ibus-table
@@ -38,14 +34,10 @@ libpam-gnome-keyring
 libpam-sss
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
-libreoffice-calc
 libreoffice-gnome
-libreoffice-impress
-libreoffice-math
 libreoffice-ogltrans
 libreoffice-pdfimport
 libreoffice-style-breeze
-libreoffice-writer
 libwmf0.2-7-gtk
 mousetweaks
 network-manager
@@ -54,7 +46,6 @@ network-manager-pptp-gnome
 orca
 pulseaudio-module-bluetooth
 remmina
-seahorse
 speech-dispatcher
 system-config-printer
 thunderbird
