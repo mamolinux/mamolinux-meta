@@ -1,3 +1,18 @@
+mamolinux-meta (22.04.3) jammy; urgency=medium
+
+  * Refreshed dependencies
+  * Added gvfs-backends to desktop, desktop-minimal
+  * Added python3-smbc to desktop-full-recommends, desktop-recommends
+  * Added system-config-printer to desktop-full
+  * Removed gnome-panel from desktop, desktop-minimal
+  * Removed gnome-terminal from desktop-minimal-recommends, desktop-
+    recommends
+  * Removed system-config-printer from desktop-minimal-recommends
+  * Removed vim-tiny from minimal
+  * Moved system-config-printer to desktop
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 10 Sep 2023 19:27:31 +0530
+
 mamolinux-meta (22.04.2) jammy; urgency=medium
 
   * Update script and debootstrap version (#10)
