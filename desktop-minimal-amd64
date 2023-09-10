@@ -23,7 +23,6 @@ ghostscript-x
 gnome-calculator
 gnome-disk-utility
 gnome-firmware
-gnome-panel
 gnome-screenshot
 gnome-software
 gparted
@@ -32,6 +31,7 @@ gstreamer1.0-packagekit
 gstreamer1.0-plugins-base-apps
 gstreamer1.0-pulseaudio
 gufw
+gvfs-backends
 gvfs-fuse
 ibus
 inputattach

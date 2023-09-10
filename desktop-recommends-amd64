@@ -21,7 +21,6 @@ gnome-mines
 gnome-power-manager
 gnome-sudoku
 gnome-system-monitor
-gnome-terminal
 gnome-todo
 gpg-agent
 ibus-gtk
@@ -45,9 +44,9 @@ network-manager-config-connectivity-ubuntu
 network-manager-pptp-gnome
 orca
 pulseaudio-module-bluetooth
+python3-smbc
 remmina
 speech-dispatcher
-system-config-printer
 thunderbird
 thunderbird-gnome-support
 totem
