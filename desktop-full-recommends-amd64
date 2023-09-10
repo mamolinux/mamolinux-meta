@@ -19,6 +19,7 @@ network-manager
 network-manager-config-connectivity-ubuntu
 network-manager-pptp-gnome
 orca
+python3-smbc
 remmina
 speech-dispatcher
 thunderbird

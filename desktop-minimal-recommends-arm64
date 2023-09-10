@@ -27,7 +27,6 @@ gnome-bluetooth
 gnome-font-viewer
 gnome-power-manager
 gnome-system-monitor
-gnome-terminal
 gpg-agent
 hplip
 ibus-gtk
@@ -54,7 +53,6 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio-module-bluetooth
-system-config-printer
 ubuntu-docs
 whoopsie
 wpasupplicant
