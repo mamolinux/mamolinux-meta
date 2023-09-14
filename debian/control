@@ -82,8 +82,9 @@ Package: mamolinux-ship
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
 Recommends: ${germinate:Recommends}
-Description: MamoLinux Live Packages
- This metapackage installs the packages needed to make a system bootable.
+Description: MamoLinux Boot Packages
+ This metapackage installs the packages needed to make a system bootable
+ i.e. the kernels and bootloaders.
  .
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
