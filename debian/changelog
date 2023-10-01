@@ -1,3 +1,9 @@
+mamolinux-meta (23.04) lunar; urgency=medium
+
+  * New version for lunar
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 01 Oct 2023 11:49:53 +0530
+
 mamolinux-meta (22.04.4) jammy; urgency=medium
 
   * Add fixes for update script and debootstrap (#12)
