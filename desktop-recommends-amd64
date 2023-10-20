@@ -35,15 +35,14 @@ libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
 libreoffice-gnome
 libreoffice-ogltrans
-libreoffice-pdfimport
 libreoffice-style-breeze
+libspa-0.2-bluetooth
 libwmf0.2-7-gtk
 mousetweaks
 network-manager
 network-manager-config-connectivity-ubuntu
 network-manager-pptp-gnome
 orca
-pulseaudio-module-bluetooth
 python3-smbc
 remmina
 speech-dispatcher

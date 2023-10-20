@@ -38,6 +38,7 @@ libglib2.0-bin
 libnss-mdns
 libpam-fprintd
 libpam-sss
+libspa-0.2-bluetooth
 libwmf0.2-7-gtk
 mousetweaks
 packagekit
@@ -52,7 +53,6 @@ printer-driver-ptouch
 printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
-pulseaudio-module-bluetooth
 ubuntu-docs
 whoopsie
 wpasupplicant

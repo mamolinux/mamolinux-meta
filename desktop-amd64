@@ -35,8 +35,8 @@ mamolinux-settings
 mamolinux-themes-cursor
 mamolinux-wallpapers
 p7zip-full
+pipewire-pulse
 plymouth-theme-spinner
-pulseaudio
 redshift-gtk
 seahorse
 shotwell
@@ -60,6 +60,7 @@ ubuntu-release-upgrader-gtk
 update-manager
 update-notifier
 vlc
+wireplumber
 xdg-user-dirs-gtk
 xed
 yaru-theme-sound

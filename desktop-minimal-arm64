@@ -47,9 +47,9 @@ mamolinux-settings
 mamolinux-themes-cursor
 mamolinux-wallpapers
 openprinting-ppds
+pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
-pulseaudio
 redshift-gtk
 rfkill
 slick-greeter
@@ -70,6 +70,7 @@ ubuntu-release-upgrader-gtk
 update-manager
 update-notifier
 vlc
+wireplumber
 xdg-user-dirs-gtk
 xed
 xkb-data
