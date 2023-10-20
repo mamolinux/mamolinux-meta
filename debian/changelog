@@ -1,3 +1,22 @@
+mamolinux-meta (23.04.1) lunar; urgency=medium
+
+  * Refreshed dependencies (#16)
+  * Removed acpi-support from desktop-minimal-recommends [amd64]
+  * Removed libreoffice-pdfimport from desktop-full-recommends, desktop-
+    recommends
+  * Added libspa-0.2-bluetooth to desktop-minimal-recommends [arm64],
+    desktop-recommends [arm64]
+  * Added pipewire-pulse to desktop [arm64], desktop-minimal [arm64]
+  * Added wireplumber to desktop [arm64], desktop-minimal [arm64]
+  * Removed pulseaudio from desktop [arm64], desktop-minimal [arm64]
+  * Removed pulseaudio-module-bluetooth from desktop-minimal-recommends
+    [arm64], desktop-recommends [arm64]
+  * Update debootstrap version for lunar (#15)
+  * New configuration for lunar (#14)
+    - Update distribution to lunar
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Fri, 20 Oct 2023 22:23:05 +0530
+
 mamolinux-meta (23.04) lunar; urgency=medium
 
   * New version for lunar
