@@ -6,6 +6,8 @@ at-spi2-core
 bc
 ca-certificates
 cinnamon
+cups
+cups-client
 eog
 epiphany-browser
 evince
@@ -71,6 +73,7 @@ update-manager
 update-notifier
 vlc
 wireplumber
+wpasupplicant
 xdg-user-dirs-gtk
 xed
 xkb-data
