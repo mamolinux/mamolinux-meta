@@ -1,3 +1,14 @@
+mamolinux-meta (23.04.2) lunar; urgency=medium
+
+  * Redirect output to log (#18)
+    - Remove log file post process end
+  * Refreshed dependencies (#17)
+  * Moved cups to desktop-minimal
+  * Moved cups-client to desktop-minimal
+  * Moved wpasupplicant to desktop-minimal
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 22 Oct 2023 21:23:14 +0530
+
 mamolinux-meta (23.04.1) lunar; urgency=medium
 
   * Refreshed dependencies (#16)
