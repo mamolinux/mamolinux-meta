@@ -10,5 +10,5 @@ if ! which debootstrap >/dev/null; then
 	exit 1
 fi
 
-germinate-update-metapackage --vcs
-rm -f *.old
+germinate-update-metapackage --vcs > log
+rm -f *.old log
