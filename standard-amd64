@@ -20,7 +20,6 @@ lshw
 lsof
 man-db
 media-types
-memtest86+
 nftables
 ntfs-3g
 openssh-client
@@ -40,6 +39,5 @@ usbutils
 uuid-runtime
 vim
 wget
-wireless-tools
 xz-utils
 zip
