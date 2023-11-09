@@ -1,3 +1,108 @@
+mamolinux-meta (23.10.0) mantic; urgency=medium
+
+  * Update version to mantic (#19)
+  * Refreshed dependencies (#20)
+  * Added alsa-base to desktop
+  * Added alsa-utils to desktop
+  * Added anacron to desktop
+  * Added avahi-daemon to desktop-recommends
+  * Added bc to desktop
+  * Added bluez to desktop-recommends
+  * Added bluez-cups to desktop-recommends
+  * Added ca-certificates to desktop
+  * Added cups to desktop
+  * Added cups-bsd to desktop-recommends
+  * Added cups-client to desktop
+  * Added cups-filters to desktop-recommends
+  * Added dhcpcd-base to minimal
+  * Added flash-kernel to desktop-minimal-recommends [arm64], desktop-
+    recommends [arm64]
+  * Added fontconfig to desktop, desktop-minimal
+  * Added fonts-dejavu-core to desktop
+  * Added fonts-freefont-ttf to desktop
+  * Added fonts-liberation to desktop
+  * Added fonts-noto-cjk to desktop
+  * Added fonts-noto-core to desktop-minimal-recommends, desktop-
+    recommends
+  * Added fonts-ubuntu to desktop
+  * Added foomatic-db-compressed-ppds to desktop
+  * Added fwupd to desktop
+  * Added fwupd-signed to desktop
+  * Added ghostscript-x to desktop
+  * Added gnome-bluetooth-sendto to desktop-minimal-recommends, desktop-
+    recommends
+  * Added gnome-clocks to desktop, desktop-minimal
+  * Added gnome-session-canberra to desktop, desktop-minimal
+  * Added hplip to desktop-recommends
+  * Added inputattach to desktop
+  * Added kerneloops to desktop-recommends
+  * Added language-selector-common to desktop
+  * Added libnss-mdns to desktop-recommends
+  * Added libreoffice-impress to desktop-full-recommends, desktop-
+    recommends
+  * Added libsasl2-modules to desktop
+  * Added libu2f-udev to desktop
+  * Added mamolinux-settings-cinnamon to desktop, desktop-minimal
+  * Added memtest86+ to desktop [amd64], desktop-minimal [amd64]
+  * Added openprinting-ppds to desktop
+  * Added packagekit to desktop-recommends
+  * Added pcmciautils to desktop-recommends
+  * Added policykit-desktop-privileges to desktop-recommends
+  * Added printer-driver-brlaser to desktop-recommends
+  * Added printer-driver-c2esp to desktop-recommends
+  * Added printer-driver-foo2zjs to desktop-recommends
+  * Added printer-driver-m2300w to desktop-recommends
+  * Added printer-driver-min12xxw to desktop-recommends
+  * Added printer-driver-pnm2ppa to desktop
+  * Added printer-driver-ptouch to desktop-recommends
+  * Added printer-driver-pxljr to desktop-recommends
+  * Added printer-driver-sag-gdi to desktop-recommends
+  * Added printer-driver-splix to desktop-recommends
+  * Added protection-domain-mapper to desktop-minimal-recommends
+    [arm64], desktop-recommends [arm64]
+  * Added qrtr-tools to desktop-minimal-recommends [arm64], desktop-
+    recommends [arm64]
+  * Added rfkill to desktop
+  * Added snapd to desktop
+  * Added spice-vdagent to desktop
+  * Added sucharu-theme-cursor to desktop, desktop-minimal
+  * Added system-config-printer to desktop-minimal
+  * Added ubuntu-drivers-common to desktop
+  * Added ubuntu-report to desktop, desktop-minimal
+  * Added wireless-tools to desktop, desktop-minimal
+  * Added wpasupplicant to desktop
+  * Added xdg-user-dirs to desktop, desktop-minimal
+  * Added xkb-data to desktop
+  * Added xorg to desktop
+  * Removed epiphany-browser from desktop, desktop-minimal
+  * Removed fonts-kacst-one from desktop-minimal-recommends
+  * Removed fonts-khmeros-core from desktop-minimal-recommends
+  * Removed fonts-lao from desktop-minimal-recommends
+  * Removed fonts-lklug-sinhala from desktop-minimal-recommends
+  * Removed fonts-sil-abyssinica from desktop-minimal-recommends
+  * Removed fonts-sil-padauk from desktop-minimal-recommends
+  * Removed fonts-thai-tlwg from desktop-minimal-recommends
+  * Removed fonts-tibetan-machine from desktop-minimal-recommends
+  * Removed gnome-bluetooth from desktop-minimal-recommends, desktop-
+    recommends
+  * Removed gstreamer1.0-pulseaudio from desktop, desktop-minimal
+  * Removed isc-dhcp-client from minimal
+  * Removed libreoffice-ogltrans from desktop-full-recommends, desktop-
+    recommends
+  * Removed mamolinux-settings from desktop, desktop-minimal
+  * Removed mamolinux-themes-cursor from desktop, desktop-minimal
+  * Removed memtest86+ from standard [amd64]
+  * Removed system-config-printer from desktop-full
+  * Removed wireless-tools from standard
+  * Removed yaru-theme-sound from desktop, desktop-minimal
+  * Moved gnome-firmware to desktop-minimal-recommends, desktop-
+    recommends
+  * Moved gnome-software to desktop-minimal-recommends, desktop-
+    recommends
+  * Update debootstrap version and script (#21)
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Thu, 09 Nov 2023 18:21:07 +0530
+
 mamolinux-meta (23.04.2) lunar; urgency=medium
 
   * Redirect output to log (#18)
