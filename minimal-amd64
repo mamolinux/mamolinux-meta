@@ -4,12 +4,12 @@ apt-utils
 console-setup
 debconf
 debconf-i18n
+dhcpcd-base
 e2fsprogs
 eject
 init
 iproute2
 iputils-ping
-isc-dhcp-client
 kbd
 kmod
 less
