@@ -11,4 +11,4 @@ if ! which debootstrap >/dev/null; then
 fi
 
 germinate-update-metapackage --vcs > log
-rm -f *.old log
+rm -f *.old log wget*
