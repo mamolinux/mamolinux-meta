@@ -26,7 +26,7 @@ python3
 sensible-utils
 sudo
 tzdata
-ubuntu-advantage-tools
 ubuntu-keyring
+ubuntu-pro-client
 udev
 whiptail

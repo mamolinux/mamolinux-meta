@@ -4,6 +4,7 @@ anacron
 apport-gtk
 at-spi2-core
 bc
+blueman
 ca-certificates
 cinnamon
 cups
@@ -23,7 +24,7 @@ foomatic-db-compressed-ppds
 fwupd
 fwupd-signed
 gdebi
-ghostscript-x
+ghostscript
 gnome-calculator
 gnome-chess
 gnome-clocks

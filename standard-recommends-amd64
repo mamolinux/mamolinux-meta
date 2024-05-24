@@ -1,8 +1,11 @@
+ethtool
 iptables
 iputils-tracepath
-irqbalance
 manpages
 mtr-tiny
 nano
+numactl
+sysstat
 tcpdump
 telnet
+trace-cmd
