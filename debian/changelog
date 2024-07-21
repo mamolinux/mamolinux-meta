@@ -1,3 +1,13 @@
+mamolinux-meta (24.04.1) noble; urgency=medium
+
+  * Refreshed dependencies (#24)
+  * Added fonts-indic to desktop, desktop-minimal
+  * Added gnome-online-accounts-gtk to desktop, desktop-minimal
+  * Removed fonts-indic from desktop-full
+  * Removed fonts-noto-cjk from desktop, desktop-minimal
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Mon, 22 Jul 2024 00:24:42 +0530
+
 mamolinux-meta (24.04.0) noble; urgency=medium
 
   * Refreshed dependencies (#22)
