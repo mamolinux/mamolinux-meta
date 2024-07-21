@@ -16,8 +16,8 @@ firefox
 fontconfig
 fonts-dejavu-core
 fonts-freefont-ttf
+fonts-indic
 fonts-liberation
-fonts-noto-cjk
 fonts-ubuntu
 foomatic-db-compressed-ppds
 fwupd
@@ -26,6 +26,7 @@ ghostscript
 gnome-calculator
 gnome-clocks
 gnome-disk-utility
+gnome-online-accounts-gtk
 gnome-screenshot
 gnome-session-canberra
 gparted
