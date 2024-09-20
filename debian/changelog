@@ -1,3 +1,246 @@
+mamolinux-meta (24.04.2) noble; urgency=medium
+
+  * Prepare for MamoLinux Budgie desktop (#25)
+  * Prepare for MamoLinux Gnome desktop (#26)
+  * Add metapackages for budgie desktop (#27)
+  * Refreshed dependencies (#28)
+  * Added aisleriot to budgie-full-recommends, budgie-recommends
+  * Added alsa-base to budgie, budgie-minimal
+  * Added alsa-utils to budgie, budgie-minimal
+  * Added anacron to budgie, budgie-minimal
+  * Added apport-gtk to budgie, budgie-minimal
+  * Added appstream to budgie-minimal-recommends, budgie-recommends
+  * Added apt-config-icons-hidpi to budgie-minimal-recommends, budgie-
+    recommends
+  * Added at-spi2-core to budgie, budgie-minimal
+  * Added avahi-autoipd to budgie-minimal-recommends, budgie-recommends
+  * Added avahi-daemon to budgie-minimal-recommends, budgie-recommends
+  * Added baobab to budgie-full
+  * Added bc to budgie, budgie-minimal
+  * Added blueman to budgie, budgie-minimal
+  * Added bluez to budgie-minimal-recommends, budgie-recommends
+  * Added bluez-cups to budgie-minimal-recommends, budgie-recommends
+  * Added branding-ubuntu to budgie-full-recommends, budgie-recommends
+  * Added brltty to budgie-minimal-recommends, budgie-recommends
+  * Added budgie-desktop to budgie, budgie-minimal
+  * Added ca-certificates to budgie, budgie-minimal
+  * Added cheese to budgie-full
+  * Added cups to budgie, budgie-minimal
+  * Added cups-bsd to budgie-minimal-recommends, budgie-recommends
+  * Added cups-client to budgie, budgie-minimal
+  * Added cups-filters to budgie-minimal-recommends, budgie-recommends
+  * Added deja-dup to budgie-full-recommends, budgie-recommends
+  * Added dirmngr to budgie-minimal-recommends, budgie-recommends
+  * Added eog to budgie, budgie-minimal
+  * Added evince to budgie, budgie-minimal
+  * Added evolution to budgie, budgie-full
+  * Added file-roller to budgie, budgie-minimal
+  * Added firefox to budgie, budgie-minimal
+  * Added flash-kernel to budgie-minimal-recommends [arm64], budgie-
+    recommends [arm64]
+  * Added flatpak to budgie-full
+  * Added fontconfig to budgie, budgie-minimal
+  * Added fonts-dejavu-core to budgie, budgie-minimal
+  * Added fonts-freefont-ttf to budgie, budgie-minimal
+  * Added fonts-indic to budgie, budgie-minimal
+  * Added fonts-liberation to budgie, budgie-minimal
+  * Added fonts-liberation2 to budgie-minimal-recommends, budgie-
+    recommends
+  * Added fonts-noto-color-emoji to budgie-minimal-recommends, budgie-
+    recommends
+  * Added fonts-noto-core to budgie-minimal-recommends, budgie-
+    recommends
+  * Added fonts-opensymbol to budgie-minimal-recommends, budgie-
+    recommends
+  * Added fonts-ubuntu to budgie, budgie-minimal
+  * Added foomatic-db-compressed-ppds to budgie, budgie-minimal
+  * Added fwupd to budgie, budgie-minimal
+  * Added fwupd-signed to budgie, budgie-minimal
+  * Added gamemode to budgie-minimal-recommends, budgie-recommends
+  * Added gdebi to budgie, budgie-full
+  * Added geoclue-2.0 to budgie-full-recommends, budgie-recommends
+  * Added ghostscript to budgie, budgie-minimal
+  * Added gnome-accessibility-themes to budgie-minimal-recommends,
+    budgie-recommends
+  * Added gnome-bluetooth-sendto to budgie-minimal-recommends, budgie-
+    recommends
+  * Added gnome-calculator to budgie, budgie-minimal
+  * Added gnome-calendar to budgie-full-recommends, budgie-recommends
+  * Added gnome-characters to budgie-full
+  * Added gnome-chess to budgie, budgie-full
+  * Added gnome-clocks to budgie, budgie-minimal
+  * Added gnome-disk-utility to budgie, budgie-minimal
+  * Added gnome-firmware to budgie-minimal-recommends, budgie-recommends
+  * Added gnome-font-viewer to budgie-minimal-recommends, budgie-
+    recommends
+  * Added gnome-keyring to budgie-full-recommends, budgie-recommends
+  * Added gnome-mahjongg to budgie-full-recommends, budgie-recommends
+  * Added gnome-mines to budgie-full-recommends, budgie-recommends
+  * Added gnome-power-manager to budgie-minimal-recommends, budgie-
+    recommends
+  * Added gnome-screenshot to budgie, budgie-minimal
+  * Added gnome-session-canberra to budgie, budgie-minimal
+  * Added gnome-software to budgie-minimal-recommends, budgie-recommends
+  * Added gnome-sudoku to budgie-full-recommends, budgie-recommends
+  * Added gnome-system-monitor to budgie-minimal-recommends, budgie-
+    recommends
+  * Added gnome-todo to budgie-full-recommends, budgie-recommends
+  * Added goldendict to budgie-full
+  * Added gparted to budgie, budgie-minimal
+  * Added gpg-agent to budgie-minimal-recommends, budgie-recommends
+  * Added gstreamer1.0-alsa to budgie, budgie-minimal
+  * Added gstreamer1.0-packagekit to budgie, budgie-minimal
+  * Added gstreamer1.0-plugins-base-apps to budgie, budgie-minimal
+  * Added gtkhash to budgie-full
+  * Added gucharmap to budgie-full
+  * Added gufw to budgie, budgie-minimal
+  * Added gvfs-backends to budgie, budgie-minimal
+  * Added gvfs-fuse to budgie, budgie-minimal
+  * Added hardinfo to budgie-full
+  * Added hexchat to budgie-full
+  * Added hplip to budgie-minimal-recommends, budgie-recommends
+  * Added ibus to budgie, budgie-minimal
+  * Added ibus-gtk to budgie-minimal-recommends, budgie-recommends
+  * Added ibus-gtk3 to budgie-minimal-recommends, budgie-recommends
+  * Added ibus-table to budgie-minimal-recommends, budgie-recommends
+  * Added im-config to budgie-minimal-recommends, budgie-recommends
+  * Added inputattach to budgie, budgie-minimal
+  * Added kerneloops to budgie-minimal-recommends, budgie-recommends
+  * Added language-selector-common to budgie, budgie-minimal
+  * Added language-selector-gnome to budgie, budgie-minimal
+  * Added leaptime-manager to budgie, budgie-full
+  * Added libatk-adaptor to budgie, budgie-minimal
+  * Added libglib2.0-bin to budgie-minimal-recommends, budgie-recommends
+  * Added libnotify-bin to budgie, budgie-minimal
+  * Added libnss-mdns to budgie-minimal-recommends, budgie-recommends
+  * Added libpam-fprintd to budgie-minimal-recommends, budgie-recommends
+  * Added libpam-gnome-keyring to budgie-full-recommends, budgie-
+    recommends
+  * Added libpam-sss to budgie-minimal-recommends, budgie-recommends
+  * Added libproxy1-plugin-gsettings to budgie-full-recommends, budgie-
+    recommends
+  * Added libproxy1-plugin-networkmanager to budgie-full-recommends,
+    budgie-recommends
+  * Added libreoffice to budgie, budgie-full
+  * Added libreoffice-gnome to budgie-full-recommends, budgie-recommends
+  * Added libreoffice-impress to budgie-full-recommends, budgie-
+    recommends
+  * Added libreoffice-style-breeze to budgie-full-recommends, budgie-
+    recommends
+  * Added libsasl2-modules to budgie, budgie-minimal
+  * Added libspa-0.2-bluetooth to budgie-minimal-recommends, budgie-
+    recommends
+  * Added libu2f-udev to budgie, budgie-minimal
+  * Added libwmf0.2-7-gtk to budgie-minimal-recommends, budgie-
+    recommends
+  * Added lightdm to budgie, budgie-minimal
+  * Added lightdm-settings to budgie, budgie-minimal
+  * Added lm-sensors to budgie-full
+  * Added mamolinux-budgie to budgie-full
+  * Added mamolinux-budgie-minimal to budgie
+  * Added mamolinux-settings-cinnamon to budgie, budgie-minimal
+  * Added mamolinux-wallpapers to budgie, budgie-minimal
+  * Added memtest86+ to budgie [amd64], budgie-minimal [amd64]
+  * Added mousetweaks to budgie-minimal-recommends, budgie-recommends
+  * Added nemo to budgie, budgie-minimal
+  * Added network-manager to budgie-full-recommends, budgie-recommends
+  * Added network-manager-config-connectivity-ubuntu to budgie-full-
+    recommends, budgie-recommends
+  * Added network-manager-pptp-gnome to budgie-full-recommends, budgie-
+    recommends
+  * Added openprinting-ppds to budgie, budgie-minimal
+  * Added orca to budgie-full-recommends, budgie-recommends
+  * Added p7zip-full to budgie, budgie-full
+  * Added packagekit to budgie-minimal-recommends, budgie-recommends
+  * Added pcmciautils to budgie-minimal-recommends, budgie-recommends
+  * Added pipewire-pulse to budgie, budgie-minimal
+  * Added plymouth-theme-spinner to budgie, budgie-minimal
+  * Added policykit-desktop-privileges to budgie-minimal-recommends,
+    budgie-recommends
+  * Added printer-driver-brlaser to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-c2esp to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-foo2zjs to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-m2300w to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-min12xxw to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-pnm2ppa to budgie, budgie-minimal
+  * Added printer-driver-ptouch to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-pxljr to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-sag-gdi to budgie-minimal-recommends, budgie-
+    recommends
+  * Added printer-driver-splix to budgie-minimal-recommends, budgie-
+    recommends
+  * Added protection-domain-mapper to budgie-minimal-recommends [arm64],
+    budgie-recommends [arm64]
+  * Added python3-smbc to budgie-full-recommends, budgie-recommends
+  * Added qrtr-tools to budgie-minimal-recommends [arm64], budgie-
+    recommends [arm64]
+  * Added redshift-gtk to budgie, budgie-minimal
+  * Added remmina to budgie-full-recommends, budgie-recommends
+  * Added rfkill to budgie, budgie-minimal
+  * Added rhythmbox to budgie-full
+  * Added seahorse to budgie, budgie-full
+  * Added shotwell to budgie, budgie-full
+  * Added simple-pwgen to budgie, budgie-full
+  * Added simple-scan to budgie, budgie-full
+  * Added slick-greeter to budgie, budgie-minimal
+  * Added snapd to budgie, budgie-minimal
+  * Added software-properties-gtk to budgie, budgie-minimal
+  * Added speech-dispatcher to budgie-full-recommends, budgie-recommends
+  * Added spice-vdagent to budgie, budgie-minimal
+  * Added sticky to budgie, budgie-full
+  * Added sucharu-theme-cursor to budgie, budgie-minimal
+  * Added sucharu-theme-gtk to budgie, budgie-minimal
+  * Added sucharu-theme-icon to budgie, budgie-minimal
+  * Added sucharu-theme-plank to budgie, budgie-minimal
+  * Added sucharu-theme-unity to budgie, budgie-minimal
+  * Added sucharu-theme-xfwm4 to budgie, budgie-minimal
+  * Added synapse to budgie, budgie-minimal
+  * Added syncthing to budgie-full
+  * Added system-config-printer to budgie, budgie-minimal
+  * Added system-monitoring-center to budgie, budgie-minimal
+  * Added theme-manager to budgie, budgie-minimal
+  * Added thunderbird to budgie-full-recommends, budgie-recommends
+  * Added timeshift to budgie, budgie-full
+  * Added totem to budgie-full-recommends, budgie-recommends
+  * Added transmission-gtk to budgie-full-recommends, budgie-recommends
+  * Added ubuntu-docs to budgie-minimal-recommends, budgie-recommends
+  * Added ubuntu-drivers-common to budgie, budgie-minimal
+  * Added ubuntu-release-upgrader-gtk to budgie, budgie-minimal
+  * Added ubuntu-report to budgie, budgie-minimal
+  * Added update-manager to budgie, budgie-minimal
+  * Added update-notifier to budgie, budgie-minimal
+  * Added usb-creator-gtk to budgie-full-recommends [amd64], budgie-
+    recommends [amd64]
+  * Added variety to budgie-full
+  * Added vlc to budgie, budgie-minimal
+  * Added vlc-plugin-access-extra to budgie-full
+  * Added whoopsie to budgie-minimal-recommends, budgie-recommends
+  * Added wireless-tools to budgie, budgie-minimal
+  * Added wireplumber to budgie, budgie-minimal
+  * Added wpasupplicant to budgie, budgie-minimal
+  * Added xcursor-themes to budgie-minimal-recommends, budgie-recommends
+  * Added xdg-desktop-portal-gnome to budgie-minimal-recommends, budgie-
+    recommends
+  * Added xdg-desktop-portal-gtk to budgie-minimal-recommends, budgie-
+    recommends
+  * Added xdg-user-dirs to budgie, budgie-minimal
+  * Added xdg-user-dirs-gtk to budgie, budgie-minimal
+  * Added xdg-utils to budgie-minimal-recommends, budgie-recommends
+  * Added xed to budgie, budgie-minimal
+  * Added xkb-data to budgie, budgie-minimal
+  * Added xorg to budgie, budgie-minimal
+  * Added yelp to budgie, budgie-minimal
+  * Added zenity to budgie, budgie-minimal
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sat, 21 Sep 2024 00:48:58 +0530
+
 mamolinux-meta (24.04.1) noble; urgency=medium
 
   * Refreshed dependencies (#24)
