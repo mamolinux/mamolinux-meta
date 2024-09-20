@@ -111,6 +111,39 @@ Description: Full desktop of MamoLinux Budgie with all utilities
  It is also used to help ensure proper upgrades, so it is recommended that
  it not be removed.
 
+Package: mamolinux-gnome-minimal
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: MamoLinux Gnome with minimal utilities
+ This metapackage installs the MamoLinux Gnome desktop with minimal utilities.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: mamolinux-gnome
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: MamoLinux Gnome with basic utilities
+ This metapackage installs the MamoLinux Gnome desktop with basic utilities.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
+Package: mamolinux-gnome-full
+Architecture: any
+Depends: ${misc:Depends}, ${germinate:Depends}
+Recommends: ${germinate:Recommends}
+Provides: packagekit-installer
+Description: Full desktop of MamoLinux Gnome with all utilities
+ This metapackage installs the MamoLinux Gnome desktop with all utilities.
+ .
+ It is also used to help ensure proper upgrades, so it is recommended that
+ it not be removed.
+
 Package: mamolinux-ship
 Architecture: any
 Depends: ${misc:Depends}, ${germinate:Depends}
