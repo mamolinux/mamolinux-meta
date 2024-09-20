@@ -3,5 +3,8 @@ standard mamolinux-standard
 desktop-minimal mamolinux-desktop-minimal
 desktop mamolinux-desktop
 desktop-full mamolinux-desktop-full
+budgie-minimal mamolinux-budgie-minimal
+budgie mamolinux-budgie
+budgie-full mamolinux-budgie-full
 live mamolinux-live
 ship mamolinux-ship
