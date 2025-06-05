@@ -1,3 +1,81 @@
+mamolinux-meta (25.04.1) plucky; urgency=medium
+
+  * Refreshed dependencies
+  * Added adcli to live
+  * Added cloud-init to desktop-minimal-recommends, desktop-recommends
+  * Added endeavour to budgie-full-recommends, budgie-recommends,
+    desktop-full-recommends, desktop-recommends
+  * Added gnome-remote-desktop to desktop-minimal-recommends, desktop-
+    recommends
+  * Added gnome-snapshot to desktop-full
+  * Added initramfs-tools to desktop
+  * Added initramfs-tools | dracut to desktop-minimal
+  * Added iw to budgie, budgie-minimal, desktop, desktop-minimal
+  * Added kdump-tools to desktop-minimal-recommends, desktop-recommends
+  * Added libproxy1-plugin-gsettings to desktop-minimal-recommends
+  * Added libproxy1-plugin-networkmanager to desktop-minimal-recommends
+  * Added libreoffice-calc to desktop-full-recommends, desktop-
+    recommends
+  * Added libreoffice-math to desktop-full-recommends, desktop-
+    recommends
+  * Added libreoffice-style-yaru to desktop-full-recommends, desktop-
+    recommends
+  * Added libreoffice-writer to desktop-full-recommends, desktop-
+    recommends
+  * Added login to minimal
+  * Added loupe to desktop, desktop-minimal
+  * Added mdadm to live
+  * Added network-manager to desktop-minimal-recommends
+  * Added network-manager-config-connectivity-ubuntu to desktop-minimal-
+    recommends
+  * Added network-manager-openvpn-gnome to desktop-minimal-recommends,
+    desktop-recommends
+  * Added network-manager-pptp-gnome to desktop-minimal-recommends
+  * Added papers to desktop, desktop-minimal
+  * Added python3-smbc to desktop-minimal-recommends
+  * Added realmd to live
+  * Added sssd to live
+  * Added systemd-oomd to desktop-minimal-recommends, desktop-recommends
+  * Added ubuntu-x13s-settings-nogrub to live [arm64]
+  * Added ubuntu-x1e-settings-nogrub to live [arm64]
+  * Added xdg-terminal-exec to desktop, desktop-minimal
+  * Removed apt-utils from minimal
+  * Removed avahi-autoipd from desktop-minimal-recommends, desktop-
+    recommends
+  * Removed cheese from desktop-full
+  * Removed dmraid from live
+  * Removed eog from desktop, desktop-minimal
+  * Removed evince from desktop, desktop-minimal
+  * Removed flash-kernel from desktop-minimal-recommends [arm64],
+    desktop-recommends [arm64]
+  * Removed geoclue-2.0 from desktop-full-recommends, desktop-recommends
+  * Removed gnome-todo from budgie-full-recommends, budgie-recommends,
+    desktop-full-recommends, desktop-recommends
+  * Removed initramfs-tools from ship
+  * Removed kerneloops from budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends
+  * Removed libproxy1-plugin-gsettings from desktop-full-recommends
+  * Removed libproxy1-plugin-networkmanager from desktop-full-recommends
+  * Removed libreoffice-style-breeze from desktop-full-recommends,
+    desktop-recommends
+  * Removed network-manager from desktop-full-recommends
+  * Removed network-manager-config-connectivity-ubuntu from desktop-
+    full-recommends
+  * Removed network-manager-pptp-gnome from desktop-full-recommends
+  * Removed protection-domain-mapper from desktop-minimal-recommends
+    [arm64], desktop-recommends [arm64]
+  * Removed python3-smbc from desktop-full-recommends
+  * Removed qrtr-tools from desktop-minimal-recommends [arm64], desktop-
+    recommends [arm64]
+  * Removed redshift-gtk from desktop, desktop-minimal
+  * Removed sssd from standard
+  * Removed thunderbird from desktop-full-recommends, desktop-recommends
+  * Removed wireless-tools from budgie, budgie-minimal, desktop,
+    desktop-minimal
+  * Removed zfs-initramfs from live
+
+ -- Himadri Sekhar Basu <mamolinux@mamolinux.org>  Thu, 05 Jun 2025 14:09:09 +0530
+
 mamolinux-meta (24.04.2) noble; urgency=medium
 
   * Prepare for MamoLinux Budgie desktop (#25)
