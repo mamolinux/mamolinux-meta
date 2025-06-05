@@ -40,6 +40,7 @@ gvfs-backends
 gvfs-fuse
 ibus
 inputattach
+iw
 language-selector-common
 language-selector-gnome
 leaptime-manager
@@ -88,7 +89,6 @@ ubuntu-report
 update-manager
 update-notifier
 vlc
-wireless-tools
 wireplumber
 wpasupplicant
 xdg-user-dirs

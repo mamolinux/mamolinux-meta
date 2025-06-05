@@ -9,8 +9,6 @@ ca-certificates
 cinnamon
 cups
 cups-client
-eog
-evince
 evolution
 file-roller
 firefox
@@ -40,7 +38,9 @@ gufw
 gvfs-backends
 gvfs-fuse
 ibus
+initramfs-tools
 inputattach
+iw
 language-selector-common
 language-selector-gnome
 leaptime-manager
@@ -51,15 +51,16 @@ libsasl2-modules
 libu2f-udev
 lightdm
 lightdm-settings
+loupe
 mamolinux-desktop-minimal
 mamolinux-settings-cinnamon
 mamolinux-wallpapers
 openprinting-ppds
 p7zip-full
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
-redshift-gtk
 rfkill
 seahorse
 shotwell
@@ -88,9 +89,9 @@ ubuntu-report
 update-manager
 update-notifier
 vlc
-wireless-tools
 wireplumber
 wpasupplicant
+xdg-terminal-exec
 xdg-user-dirs
 xdg-user-dirs-gtk
 xed

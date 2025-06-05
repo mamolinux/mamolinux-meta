@@ -1,3 +1,4 @@
+adcli
 btrfs-progs
 calamares
 calamares-settings-mamolinux
@@ -5,7 +6,6 @@ casper
 cifs-utils
 cryptsetup
 discover
-dmraid
 expect
 grub-pc
 gtk-im-libthai
@@ -15,11 +15,13 @@ ibus-unikey
 jfsutils
 laptop-detect
 lvm2
+mdadm
 mokutil
+realmd
 reiserfsprogs
 shim-signed
+sssd
 tasksel
 wamerican
 xfsprogs
-zfs-initramfs
 zfsutils-linux

@@ -6,5 +6,8 @@ desktop-full mamolinux-desktop-full
 budgie-minimal mamolinux-budgie-minimal
 budgie mamolinux-budgie
 budgie-full mamolinux-budgie-full
+gnome-minimal mamolinux-gnome-minimal
+gnome mamolinux-gnome
+gnome-full mamolinux-gnome-full
 live mamolinux-live
 ship mamolinux-ship
