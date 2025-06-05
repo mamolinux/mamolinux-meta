@@ -37,6 +37,7 @@ gvfs-backends
 gvfs-fuse
 ibus
 inputattach
+iw
 language-selector-common
 language-selector-gnome
 libatk-adaptor
@@ -75,7 +76,6 @@ ubuntu-report
 update-manager
 update-notifier
 vlc
-wireless-tools
 wireplumber
 wpasupplicant
 xdg-user-dirs

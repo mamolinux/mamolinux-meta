@@ -27,7 +27,6 @@ ibus-gtk
 ibus-gtk3
 ibus-table
 im-config
-kerneloops
 libglib2.0-bin
 libnss-mdns
 libpam-fprintd

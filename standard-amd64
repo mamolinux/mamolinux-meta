@@ -29,7 +29,6 @@ plymouth
 plymouth-theme-mamolinux-text
 psmisc
 rsync
-sssd
 strace
 time
 ufw

@@ -9,8 +9,6 @@ ca-certificates
 cinnamon
 cups
 cups-client
-eog
-evince
 file-roller
 firefox
 fontconfig
@@ -37,7 +35,9 @@ gufw
 gvfs-backends
 gvfs-fuse
 ibus
+initramfs-tools | dracut
 inputattach
+iw
 language-selector-common
 language-selector-gnome
 libatk-adaptor
@@ -46,14 +46,15 @@ libsasl2-modules
 libu2f-udev
 lightdm
 lightdm-settings
+loupe
 mamolinux-settings-cinnamon
 mamolinux-wallpapers
 memtest86+
 openprinting-ppds
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
-redshift-gtk
 rfkill
 slick-greeter
 snapd
@@ -76,9 +77,9 @@ ubuntu-report
 update-manager
 update-notifier
 vlc
-wireless-tools
 wireplumber
 wpasupplicant
+xdg-terminal-exec
 xdg-user-dirs
 xdg-user-dirs-gtk
 xed

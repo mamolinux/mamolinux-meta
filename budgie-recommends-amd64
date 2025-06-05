@@ -11,6 +11,7 @@ cups-bsd
 cups-filters
 deja-dup
 dirmngr
+endeavour
 fonts-liberation2
 fonts-noto-color-emoji
 fonts-noto-core
@@ -29,14 +30,12 @@ gnome-power-manager
 gnome-software
 gnome-sudoku
 gnome-system-monitor
-gnome-todo
 gpg-agent
 hplip
 ibus-gtk
 ibus-gtk3
 ibus-table
 im-config
-kerneloops
 libglib2.0-bin
 libnss-mdns
 libpam-fprintd
