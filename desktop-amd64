@@ -9,6 +9,7 @@ ca-certificates
 cinnamon
 cups
 cups-client
+evince
 evolution
 file-roller
 firefox
@@ -58,7 +59,6 @@ mamolinux-wallpapers
 memtest86+
 openprinting-ppds
 p7zip-full
-papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa

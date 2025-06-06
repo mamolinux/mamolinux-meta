@@ -43,9 +43,12 @@ libpam-gnome-keyring
 libpam-sss
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
+libreoffice-calc
 libreoffice-gnome
 libreoffice-impress
-libreoffice-style-breeze
+libreoffice-math
+libreoffice-style-yaru
+libreoffice-writer
 libspa-0.2-bluetooth
 libwmf0.2-7-gtk
 mousetweaks
