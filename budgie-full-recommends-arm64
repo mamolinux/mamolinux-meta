@@ -11,9 +11,12 @@ gnome-sudoku
 libpam-gnome-keyring
 libproxy1-plugin-gsettings
 libproxy1-plugin-networkmanager
+libreoffice-calc
 libreoffice-gnome
 libreoffice-impress
-libreoffice-style-breeze
+libreoffice-math
+libreoffice-style-yaru
+libreoffice-writer
 network-manager
 network-manager-config-connectivity-ubuntu
 network-manager-pptp-gnome

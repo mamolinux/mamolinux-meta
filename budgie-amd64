@@ -9,7 +9,6 @@ budgie-desktop
 ca-certificates
 cups
 cups-client
-eog
 evince
 evolution
 file-roller
@@ -51,8 +50,9 @@ libsasl2-modules
 libu2f-udev
 lightdm
 lightdm-settings
+loupe
 mamolinux-budgie-minimal
-mamolinux-settings-cinnamon
+mamolinux-settings-budgie
 mamolinux-wallpapers
 memtest86+
 nemo

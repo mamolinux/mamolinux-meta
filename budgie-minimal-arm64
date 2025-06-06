@@ -9,7 +9,6 @@ budgie-desktop
 ca-certificates
 cups
 cups-client
-eog
 evince
 file-roller
 firefox
@@ -46,7 +45,8 @@ libsasl2-modules
 libu2f-udev
 lightdm
 lightdm-settings
-mamolinux-settings-cinnamon
+loupe
+mamolinux-settings-budgie
 mamolinux-wallpapers
 nemo
 openprinting-ppds

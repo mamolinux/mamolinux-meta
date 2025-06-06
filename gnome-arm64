@@ -7,7 +7,7 @@ bc
 ca-certificates
 cups
 cups-client
-eog
+evince
 evolution
 file-roller
 firefox
@@ -61,6 +61,7 @@ libnotify-bin
 libreoffice
 libsasl2-modules
 libu2f-udev
+loupe
 mamolinux-gnome-minimal
 mamolinux-settings-gnome
 mamolinux-wallpapers
@@ -68,7 +69,6 @@ nautilus
 nautilus-sendto
 openprinting-ppds
 p7zip-full
-papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
