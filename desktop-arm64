@@ -9,7 +9,6 @@ ca-certificates
 cinnamon
 cups
 cups-client
-evince
 evolution
 file-roller
 firefox
@@ -39,7 +38,7 @@ gufw
 gvfs-backends
 gvfs-fuse
 ibus
-initramfs-tools
+initramfs-tools | dracut
 inputattach
 iw
 language-selector-common
@@ -58,6 +57,7 @@ mamolinux-settings-cinnamon
 mamolinux-wallpapers
 openprinting-ppds
 p7zip-full
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
