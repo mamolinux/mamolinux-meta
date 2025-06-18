@@ -1,3 +1,15 @@
+mamolinux-meta (25.04.3) plucky; urgency=medium
+
+  * Refreshed dependencies (#33)
+  * Added initramfs-tools | dracut to desktop, gnome
+  * Added papers to budgie, budgie-minimal, desktop, desktop-minimal,
+    gnome, gnome-minimal
+  * Removed evince from budgie, budgie-minimal, desktop, desktop-
+    minimal, gnome, gnome-minimal
+  * Removed initramfs-tools from desktop, gnome
+
+ -- Himadri Sekhar Basu <mamolinux@mamolinux.org>  Wed, 18 Jun 2025 21:03:39 +0530
+
 mamolinux-meta (25.04.2) plucky; urgency=medium
 
   * Refreshed dependencies (#32)
