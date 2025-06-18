@@ -9,7 +9,6 @@ budgie-desktop
 ca-certificates
 cups
 cups-client
-evince
 file-roller
 firefox
 fontconfig
@@ -50,6 +49,7 @@ mamolinux-settings-budgie
 mamolinux-wallpapers
 nemo
 openprinting-ppds
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa

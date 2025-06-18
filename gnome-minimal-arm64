@@ -7,7 +7,6 @@ bc
 ca-certificates
 cups
 cups-client
-evince
 file-roller
 firefox
 fontconfig
@@ -62,6 +61,7 @@ mamolinux-wallpapers
 nautilus
 nautilus-sendto
 openprinting-ppds
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa

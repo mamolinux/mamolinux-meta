@@ -9,7 +9,6 @@ budgie-desktop
 ca-certificates
 cups
 cups-client
-evince
 evolution
 file-roller
 firefox
@@ -58,6 +57,7 @@ memtest86+
 nemo
 openprinting-ppds
 p7zip-full
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa

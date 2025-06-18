@@ -7,7 +7,6 @@ bc
 ca-certificates
 cups
 cups-client
-evince
 file-roller
 firefox
 fontconfig
@@ -63,6 +62,7 @@ memtest86+
 nautilus
 nautilus-sendto
 openprinting-ppds
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa

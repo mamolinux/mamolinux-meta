@@ -9,7 +9,6 @@ ca-certificates
 cinnamon
 cups
 cups-client
-evince
 file-roller
 firefox
 fontconfig
@@ -51,6 +50,7 @@ loupe
 mamolinux-settings-cinnamon
 mamolinux-wallpapers
 openprinting-ppds
+papers
 pipewire-pulse
 plymouth-theme-spinner
 printer-driver-pnm2ppa
