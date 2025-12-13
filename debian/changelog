@@ -1,3 +1,253 @@
+mamolinux-meta (25.10.1) questing; urgency=medium
+
+  * Refreshed dependencies (#35)
+  * Added b43-fwcutter to ship
+  * Added bsd-mailx to ship
+  * Added chrony | time-daemon to minimal
+  * Added dracut to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Added flatpak to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Added gnome-clocks to budgie-full-recommends, desktop-full-
+    recommends, gnome-full-recommends
+  * Added gnome-initial-setup to gnome-minimal-recommends, gnome-
+    recommends
+  * Added gnome-logs to gnome-minimal-recommends, gnome-recommends
+  * Added gnome-remote-desktop to budgie-full-recommends, budgie-
+    recommends, desktop-full-recommends, gnome-full-recommends
+  * Added gnome-screenshot to budgie-full, desktop-full, gnome-full
+  * Added gnome-snapshot to budgie-full
+  * Added hunspell-en-us to ship
+  * Added hwctl to budgie-minimal-recommends [amd64], budgie-recommends
+    [amd64], desktop-minimal-recommends [amd64], desktop-recommends
+    [amd64], gnome-minimal-recommends [amd64], gnome-recommends [amd64]
+  * Added hyphen-en-gb to ship
+  * Added kdump-tools to budgie-minimal-recommends, budgie-recommends
+  * Added language-pack-en to ship
+  * Added language-pack-es to ship [amd64]
+  * Added language-pack-gnome-en to ship
+  * Added language-pack-gnome-es to ship [amd64]
+  * Added libproxy1-plugin-gsettings to budgie-minimal-recommends
+  * Added libproxy1-plugin-networkmanager to budgie-minimal-recommends
+  * Added libreoffice-help-en-us to ship [amd64]
+  * Added nemo to desktop, desktop-minimal
+  * Added network-manager to budgie-minimal-recommends
+  * Added network-manager-config-connectivity-ubuntu to budgie-minimal-
+    recommends
+  * Added network-manager-openvpn-gnome to budgie-minimal-recommends,
+    budgie-recommends
+  * Added network-manager-pptp-gnome to budgie-minimal-recommends
+  * Added nfs-common to ship
+  * Added nfs-kernel-server to ship
+  * Added open-iscsi to ship
+  * Added pptp-linux to ship
+  * Added ptyxis to budgie, budgie-minimal, desktop, desktop-minimal,
+    gnome, gnome-minimal
+  * Added python3-smbc to desktop-full-recommends, gnome-full-
+    recommends, gnome-recommends
+  * Added setserial to ship
+  * Added sos to ship
+  * Added ssh to ship
+  * Added sucharu-theme-cinnamon-shell to budgie-minimal-recommends,
+    budgie-recommends, gnome-minimal-recommends, gnome-recommends
+  * Added sudo-rs to minimal
+  * Added systemd-oomd to budgie-minimal-recommends, budgie-recommends
+  * Added ubuntu-insights to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Added wamerican to ship
+  * Added wsdd to budgie-minimal-recommends, budgie-recommends, desktop-
+    minimal-recommends, desktop-recommends, gnome-minimal-recommends,
+    gnome-recommends
+  * Added xdg-terminal-exec to budgie, budgie-minimal
+  * Removed avahi-autoipd from budgie-minimal-recommends, budgie-
+    recommends
+  * Removed cheese from budgie-full
+  * Removed cloud-init from desktop-minimal-recommends, desktop-
+    recommends, gnome-minimal-recommends, gnome-recommends
+  * Removed deja-dup from budgie-full-recommends, budgie-recommends,
+    desktop-full-recommends, desktop-recommends, gnome-full-recommends,
+    gnome-recommends
+  * Removed flash-kernel from budgie-minimal-recommends [arm64], budgie-
+    recommends [arm64]
+  * Removed flatpak from budgie-full, desktop-full, gnome-full
+  * Removed fonts-freefont-ttf from budgie, budgie-minimal, desktop,
+    desktop-minimal, gnome, gnome-minimal
+  * Removed geoclue-2.0 from budgie-full-recommends, budgie-recommends
+  * Removed gnome-clocks from budgie-minimal, desktop-minimal, gnome-
+    minimal
+  * Removed gnome-firmware from budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends
+  * Removed gnome-remote-desktop from desktop-minimal-recommends, gnome-
+    minimal
+  * Removed gnome-screenshot from budgie-minimal, desktop-minimal,
+    gnome-minimal
+  * Removed gnome-software from budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends
+  * Removed gnome-system-monitor from budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Removed gnome-tweaks from gnome, gnome-minimal
+  * Removed grub-efi-arm64 from ship [arm64]
+  * Removed grub-pc from ship [amd64]
+  * Removed initramfs-tools | dracut from desktop, desktop-minimal,
+    gnome, gnome-minimal
+  * Removed libproxy1-plugin-gsettings from budgie-full-recommends
+  * Removed libproxy1-plugin-networkmanager from budgie-full-recommends
+  * Removed libu2f-udev from budgie, budgie-minimal, desktop, desktop-
+    minimal, gnome, gnome-minimal
+  * Removed linux-generic from ship
+  * Removed linux-image-generic from ship
+  * Removed mawk from ship
+  * Removed network-manager from budgie-full-recommends
+  * Removed network-manager-config-connectivity-ubuntu from budgie-full-
+    recommends
+  * Removed network-manager-pptp-gnome from budgie-full-recommends
+  * Removed os-prober from ship
+  * Removed protection-domain-mapper from budgie-minimal-recommends
+    [arm64], budgie-recommends [arm64]
+  * Removed python3-smbc from desktop-minimal-recommends
+  * Removed qrtr-tools from budgie-minimal-recommends [arm64], budgie-
+    recommends [arm64]
+  * Removed redshift-gtk from budgie, budgie-minimal
+  * Removed remmina from budgie-recommends, desktop-recommends, gnome-
+    recommends
+  * Removed shotwell from budgie, desktop, gnome
+  * Removed sucharu-theme-gnome-shell from gnome, gnome-minimal
+  * Removed thermald from ship [amd64]
+  * Removed thunderbird from budgie-full-recommends, budgie-recommends
+  * Removed totem from budgie-recommends, desktop-recommends, gnome-
+    recommends
+  * Removed transmission-gtk from budgie-recommends, desktop-recommends,
+    gnome-recommends
+  * Removed usb-creator-gtk from budgie-recommends [amd64], desktop-
+    recommends [amd64], gnome-recommends [amd64]
+  * Moved apparmor to standard-recommends
+  * Moved apport-gtk to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved bash-completion to standard-recommends
+  * Moved command-not-found to standard-recommends
+  * Moved cups to budgie-minimal-recommends, budgie-recommends, desktop-
+    minimal-recommends, desktop-recommends, gnome-minimal-recommends,
+    gnome-recommends
+  * Moved cups-client to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved file-roller to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved firefox to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved fonts-indic to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved fonts-liberation to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved fonts-ubuntu to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved friendly-recovery to standard-recommends
+  * Moved fwupd to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved fwupd-signed to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved gir1.2-gmenu-3.0 to gnome-minimal-recommends, gnome-recommends
+  * Moved gnome-calculator to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved gnome-clocks to budgie-recommends, desktop-recommends, gnome-
+    recommends
+  * Moved gnome-disk-utility to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved gnome-remote-desktop to gnome-recommends
+  * Moved gparted to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved ibus to budgie-minimal-recommends, budgie-recommends, desktop-
+    minimal-recommends, desktop-recommends, gnome-minimal-recommends,
+    gnome-recommends
+  * Moved loupe to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved mamolinux-wallpapers to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved memtest86+ to budgie-minimal-recommends [amd64], budgie-
+    recommends [amd64], desktop-minimal-recommends [amd64], desktop-
+    recommends [amd64], gnome-minimal-recommends [amd64], gnome-
+    recommends [amd64]
+  * Moved nautilus-sendto to gnome-minimal-recommends, gnome-recommends
+  * Moved ntfs-3g to standard-recommends
+  * Moved openssh-client to standard-recommends
+  * Moved papers to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved plymouth to standard-recommends
+  * Moved plymouth-theme-mamolinux-text to standard-recommends
+  * Moved plymouth-theme-spinner to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved shotwell to budgie-full-recommends, desktop-full-recommends,
+    gnome-full-recommends
+  * Moved snapd to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved sucharu-theme-cinnamon-shell to desktop-minimal-recommends,
+    desktop-recommends
+  * Moved sucharu-theme-cursor to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved sucharu-theme-gtk to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved sucharu-theme-icon to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved sucharu-theme-plank to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved sucharu-theme-unity to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved sucharu-theme-xfwm4 to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved synapse to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved sysprof to gnome-minimal-recommends, gnome-recommends
+  * Moved system-config-printer to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved system-monitoring-center to budgie-minimal-recommends, budgie-
+    recommends, desktop-minimal-recommends, desktop-recommends, gnome-
+    minimal-recommends, gnome-recommends
+  * Moved theme-manager to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved ubuntu-report to budgie-minimal-recommends, budgie-recommends,
+    desktop-minimal-recommends, desktop-recommends, gnome-minimal-
+    recommends, gnome-recommends
+  * Moved ufw to standard-recommends
+  * Moved update-manager-core to standard-recommends
+  * Moved uuid-runtime to standard-recommends
+  * Moved vim to standard-recommends
+  * Moved vlc to budgie-minimal-recommends, budgie-recommends, desktop-
+    minimal-recommends, desktop-recommends, gnome-minimal-recommends,
+    gnome-recommends
+  * Moved xdg-desktop-portal-gnome to gnome-minimal-recommends, gnome-
+    recommends
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sun, 14 Dec 2025 00:28:31 +0530
+
 mamolinux-meta (25.04.3) plucky; urgency=medium
 
   * Refreshed dependencies (#33)
