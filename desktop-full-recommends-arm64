@@ -1,11 +1,12 @@
 aisleriot
 branding-ubuntu
-deja-dup
 endeavour
 gnome-calendar
+gnome-clocks
 gnome-keyring
 gnome-mahjongg
 gnome-mines
+gnome-remote-desktop
 gnome-sudoku
 libpam-gnome-keyring
 libreoffice-calc
@@ -15,7 +16,9 @@ libreoffice-math
 libreoffice-style-yaru
 libreoffice-writer
 orca
+python3-smbc
 remmina
+shotwell
 speech-dispatcher
 totem
 transmission-gtk
