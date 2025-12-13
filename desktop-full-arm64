@@ -1,9 +1,9 @@
 baobab
 evolution
-flatpak
 gdebi
 gnome-characters
 gnome-chess
+gnome-screenshot
 gnome-snapshot
 goldendict
 gtkhash
@@ -17,7 +17,6 @@ mamolinux-desktop
 p7zip-full
 rhythmbox
 seahorse
-shotwell
 simple-pwgen
 simple-scan
 sticky
