@@ -1,3 +1,9 @@
+mamolinux-meta (25.10.2) questing; urgency=medium
+
+  * Move packages needed for a bootable system to mamolinux-boot (#36)
+
+ -- Himadri Sekhar Basu <hsb10@iitbbs.ac.in>  Sat, 27 Dec 2025 22:13:08 +0530
+
 mamolinux-meta (25.10.1) questing; urgency=medium
 
   * Refreshed dependencies (#35)
