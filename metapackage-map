@@ -11,3 +11,4 @@ gnome mamolinux-gnome
 gnome-full mamolinux-gnome-full
 live mamolinux-live
 ship mamolinux-ship
+boot mamolinux-boot
