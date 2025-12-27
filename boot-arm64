@@ -1,0 +1,4 @@
+grub-efi-arm64
+linux-generic
+linux-image-generic
+mawk
